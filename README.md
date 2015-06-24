@@ -1,4 +1,4 @@
-# as-r53-switch
+# AWS Route53 maintenance switch
 DNS based failover for AWS Route 53
 
 # Usage:
