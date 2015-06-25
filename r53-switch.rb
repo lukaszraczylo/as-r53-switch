@@ -48,7 +48,7 @@ class R53Switch
     if $domain_data['record_exists'] && $domain_data['maintenance_exists']
       toggle_domain_records
     end
-    puts "Maintenance mode domain: #{maintenance_mode_domain}."
+    puts "Maintenance mode domain: #{maintenance_mode_domain}.#{$opts.record}"
   end
 
   def toggle_domain_records
